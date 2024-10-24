@@ -1,0 +1,65 @@
+export const translations = {
+  en: {
+    title: 'YouTube to MP3 Converter',
+    description: 'Convert your favorite YouTube videos to MP3 format instantly',
+    urlLabel: 'YouTube URL',
+    urlPlaceholder: 'https://www.youtube.com/watch?v=...',
+    convert: 'Convert to MP3',
+    converting: 'Converting...',
+    downloadReady: 'Your MP3 is ready! Click below to download:',
+    download: 'Download MP3',
+    error: 'An error occurred. Please try again.',
+    feature1Title: 'Any YouTube Video',
+    feature1Desc: 'Support for all YouTube video formats',
+    feature2Title: 'High Quality Audio',
+    feature2Desc: 'Get the best possible audio quality',
+    feature3Title: 'Fast Download',
+    feature3Desc: 'Quick processing and download speeds',
+    seoTitle: 'Free YouTube to MP3 Converter - Download YouTube Videos',
+    seoDescription: 'Convert and download YouTube videos to MP3 format for free. High-quality audio, fast conversion, no registration required.',
+    languageSelector: 'Select Language'
+  },
+  fr: {
+    title: 'Convertisseur YouTube vers MP3',
+    description: 'Convertissez instantanément vos vidéos YouTube préférées au format MP3',
+    urlLabel: 'URL YouTube',
+    urlPlaceholder: 'https://www.youtube.com/watch?v=...',
+    convert: 'Convertir en MP3',
+    converting: 'Conversion en cours...',
+    downloadReady: 'Votre MP3 est prêt ! Cliquez ci-dessous pour télécharger :',
+    download: 'Télécharger MP3',
+    error: 'Une erreur est survenue. Veuillez réessayer.',
+    feature1Title: 'Toute vidéo YouTube',
+    feature1Desc: 'Compatible avec tous les formats de vidéos YouTube',
+    feature2Title: 'Audio Haute Qualité',
+    feature2Desc: 'Obtenez la meilleure qualité audio possible',
+    feature3Title: 'Téléchargement Rapide',
+    feature3Desc: 'Conversion et téléchargement rapides',
+    seoTitle: 'Convertisseur YouTube MP3 Gratuit - Télécharger des Vidéos YouTube',
+    seoDescription: 'Convertissez et téléchargez des vidéos YouTube au format MP3 gratuitement. Audio haute qualité, conversion rapide, sans inscription.',
+    languageSelector: 'Sélectionner la langue'
+  },
+  es: {
+    title: 'Convertidor de YouTube a MP3',
+    description: 'Convierte instantáneamente tus videos favoritos de YouTube a formato MP3',
+    urlLabel: 'URL de YouTube',
+    urlPlaceholder: 'https://www.youtube.com/watch?v=...',
+    convert: 'Convertir a MP3',
+    converting: 'Convirtiendo...',
+    downloadReady: '¡Tu MP3 está listo! Haz clic abajo para descargar:',
+    download: 'Descargar MP3',
+    error: 'Ocurrió un error. Por favor, intenta de nuevo.',
+    feature1Title: 'Cualquier Video de YouTube',
+    feature1Desc: 'Soporte para todos los formatos de video de YouTube',
+    feature2Title: 'Audio de Alta Calidad',
+    feature2Desc: 'Obtén la mejor calidad de audio posible',
+    feature3Title: 'Descarga Rápida',
+    feature3Desc: 'Velocidades rápidas de conversión y descarga',
+    seoTitle: 'Convertidor Gratuito de YouTube a MP3 - Descarga Videos de YouTube',
+    seoDescription: 'Convierte y descarga videos de YouTube a formato MP3 gratis. Audio de alta calidad, conversión rápida, sin registro necesario.',
+    languageSelector: 'Seleccionar idioma'
+  }
+};
+
+export type Language = keyof typeof translations;
+export type TranslationKey = keyof typeof translations.en;
